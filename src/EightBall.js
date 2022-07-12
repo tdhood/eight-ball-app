@@ -23,7 +23,7 @@ function EightBall({ answers=defaultAnswers }) {
   });
 
   const index = getRandom(answers.length);
-
+//TODO: move to css file except 29
   const eightBallStyle = {
     color: "white",
     backgroundColor: answer.color,
@@ -32,7 +32,7 @@ function EightBall({ answers=defaultAnswers }) {
     width: "100px",
     padding: "100px"
   };
-
+//TODO: add className
   return (
     <div>
       <div
